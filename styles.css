@@ -1,0 +1,48 @@
+body {
+    background-color: #1a1a1a; /* Fondo oscuro */
+    color: #ffffff; /* Texto blanco */
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 100px; /* Espacio superior */
+}
+
+.chat-container {
+    display: flex;
+    justify-content: center;
+}
+
+.chat-message {
+    border-right: 2px solid #8a2be2; /* Color del cursor */
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#cursor {
+    display: inline-block;
+    width: 10px;
+    height: 20px; /* Altura del cursor */
+    background-color: #8a2be2; /* Color del cursor */
+    animation: blink-animation 1s steps(1) infinite;
+}
+
+@keyframes blink-animation {
+    50% {
+        opacity: 0;
+    }
+}
+
+#typed-text {
+    font-size: 6em; /* Tamaño del texto */
+}
+
+
+
+
+
+
+
+
+
+
+
+
